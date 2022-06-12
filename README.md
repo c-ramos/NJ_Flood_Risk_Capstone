@@ -1,12 +1,39 @@
+<<<<<<< HEAD
+# NJ Flood Risk Capstone
+
+# Overview
+
+## Roles
+Square/Github Repository: Carolina
+Triangle/ML: Archana
+Circle/Database: Mae 
+
+## Selected Topic
+**The Impact of Flooding on Home Value for Single Family Homes**
+In this analysis, the group will use property sales data from past storm events (Hurricane Ida and Hurricane Sandy) along with maps of flood risks to estimate how property values were affected.
+
+## Questions to Answer with the Data
+*   How much rain (in inches) causes flooding in towns surrounding the Raritan River in NJ? 
+*   Do major storm events, such as Hurricanes Ida and Sany, affect home value before and after?
+
+## Communications Protocol 
+Team members used Slack to communicate changes with one another. The team member responsible for the Github Repository reviewed pull requests, left comments if necessary, and approved/merged requests. 
+
+=======
 # NJ_Flood_Risk_Capstone
 
 # Overview
 
+>>>>>>> ba5dc5da28ab7af3ce9886bde54d2c302e4af92b
 ## Database
 
 ### Entity Relationship Diagram
 
+<<<<<<< HEAD
+![Resources/ERD_NJ_Flood_Risk.png](https://github.com/c-ramos/NJ_Flood_Risk_Capstone/Resources/ERD_NJ_Flood_Risk.png)
+=======
 ![Flood Risk ERD](https://github.com/c-ramos/NJ_Flood_Risk_Capstone/Resources/ERD_NJ_Flood_Risk.png)
+>>>>>>> ba5dc5da28ab7af3ce9886bde54d2c302e4af92b
 
 ### Database Tables
 *  Cities_Along_Raritan.csv:   Lists cities that lie along the banks of the Raritan River in NJ.
