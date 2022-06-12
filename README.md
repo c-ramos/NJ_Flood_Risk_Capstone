@@ -33,3 +33,29 @@ Team members used Slack to communicate changes with one another. The team member
 *  HomeValue_FloodSummary.csv:  Provisional data based on the earlier 3 database tables to be used by the machine
 								learning model to predict if the list price of the average single family home will
 								drop based on average rainfall, zipcode, city, county.
+
+## Machine Learning
+- STROM/RAIN FLOOD PREDICTION ALONG RARITAN RIVER MODEL ( REFLECTING FLOOD (y /n) and HOUSE PRICE CHANGE)
+- SUPERVISED MACHINE LEARNING
+
+Columns include:
+1.	zipcodes
+2.	YEAR-storm event
+3.	Annual rainfall/storm(input)
+4.	floodzone-(this is output -flood y/n)
+5.	Avg single home Price.this column will show changes
+6.	Price Drop (outcome) 
+
+
+steps use-(SUPERVISED  MACHINE LEARNING ) 
+1.	classification
+2.	logistic regression
+3. 	ensembling
+
+the main concept will be: from inches of rain and strom data the zipcode areas flood or not 
+data['Price Drop'].replace(['YES','NO'],[1,0],inplace=True)
+
+y_predict = will be 
+printing('Predicted drop in price') in those zip codes
+printing('Actual drop of price')in those zip codes
+the column of singlehome will show the price change
