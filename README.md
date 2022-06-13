@@ -22,8 +22,7 @@ Team members used Slack to communicate changes with one another. The team member
 
 ### Entity Relationship Diagram
 
-
-![Resources/ERD_NJ_Flood_Risk.png](https://github.com/c-ramos/NJ_Flood_Risk_Capstone/Resources/ERD_NJ_Flood_Risk.png)
+![Resources/ERD_NJ_Flood_Risk.png](https://github.com/c-ramos/NJ_Flood_Risk_Capstone/blob/main/Resources/ERD_NJ_Flood_Risk.png)
 
 ### Database Tables
 *  Cities_Along_Raritan.csv:   Lists cities that lie along the banks of the Raritan River in NJ.
