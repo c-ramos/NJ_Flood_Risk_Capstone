@@ -1,6 +1,12 @@
-﻿zipcode,city,county,flood_zone
-08901,new brunswick,Middlesex,A
-08904,highland park,Middlesex,AE
-08876,somerville,Somerset,AE
-08805,bound brook,Somerset,X
-08873,somserset,Somerset,A
+﻿zipcode,city,county,flood_zone,Latitude,Longitude
+8901,New Brunswick,Middlesex,A,40.486032,-74.431019
+8904,Highland park,Middlesex,AE,40.493327,-74.433816
+8876,Somerville,Somerset,AE,40.557521,-74.615401
+8805,Bound Brook,Somerset,X,40.560781,-74.533911
+8807,Bridgewater,Somerset,,40.546422,-74.670573
+8835,Manville,Somerset,,40.549499,-74.589291
+8854,Piscataway,Middlesex,,40.535541,-74.493968
+8872,Sayreville,Middlesex,,40.469951,-74.361227
+8817,Edison,Middlesex,,40.496208,-74.396884
+8861,Perth Amboy,Middlesex,,40.509574,-74.280087
+8880,South Bound Brook,Somerset,,40.568605,-74.523777
