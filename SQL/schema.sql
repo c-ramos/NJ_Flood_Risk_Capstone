@@ -52,5 +52,21 @@ CREATE TABLE nj_home_price (
      Q3_avg_homeprice FLOAT,
      Q4_avg_homeprice FLOAT
 );
+CREATE TABLE homevalue_floodsummary (
+     zipcode VARCHAR(5) NOT NULL,
+     city VARCHAR(50) NOT NULL,
+     county VARCHAR(30) NOT NULL,
+     stormevent_name VARCHAR(15),
+     stormevent_month INTEGER NOT NULL,
+     storm_event_year INTEGER NOT NULL,
+     rainfall_inches FLOAT,
+     flood_zone VARCHAR(3),
+     month_home_price FLOAT,
+     Q1_avg_home_price FLOAT,
+     Q2_avg_home_price FLOAT,
+     Q3_avg_home_price FLOAT,
+     Q4_avg_home_price FLOAT,
+     price_dropped CHAR(1) NOT NULL
+);
  
 
