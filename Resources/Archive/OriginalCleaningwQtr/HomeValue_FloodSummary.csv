@@ -1,0 +1,13 @@
+﻿zipcode,city,county,stormevent_name,stormevent_month,stormevent_year,rainfall_inches,anomaly,month_home_price,price_dropped
+8901,New Brunswick,Middlesex,IDA,1,2021,2.21,N,314881,N
+8901,New Brunswick,Middlesex,IDA,2,2021,5.64,N,331065,N
+8901,New Brunswick,Middlesex,IDA,3,2021,2.86,N,339545,N
+8901,New Brunswick,Middlesex,IDA,4,2021,2.49,N,342245,N
+8901,New Brunswick,Middlesex,IDA,5,2021,4.17,N,326010,Y
+8901,New Brunswick,Middlesex,IDA,6,2021,3.38,N,339542,N
+8901,New Brunswick,Middlesex,IDA,7,2021,5.01,N,344376,N
+8901,New Brunswick,Middlesex,IDA,8,2021,6.27,N,314397,Y
+8901,New Brunswick,Middlesex,IDA,9,2021,10.01,Y,310956,Y
+8901,New Brunswick,Middlesex,IDA,10,2021,7.37,N,338214,N
+8901,New Brunswick,Middlesex,IDA,11,2021,1,N,335215,Y
+8901,New Brunswick,Middlesex,IDA,12,2021,1.45,N,319290,Y
