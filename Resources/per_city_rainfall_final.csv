@@ -1,4 +1,4 @@
-CITY,LATITUDE,LONGITUDE,ELEVATION,Month,Year,city_max_day_rain,city_month_total_rain,city_avg_daily_rain,Anomalypct,Anomaly
+CITY,LATITUDE,LONGITUDE,ELEVATION,month,year,city_max_day_rain,city_month_total_rain,city_avg_daily_rain,Anomalypct,Anomaly
 Bridgewater,40.626247,-74.653535,32.9,1,2011,1.25,3.1799999999999997,0.106,0.39308176100628933,N
 Bridgewater,40.626247,-74.653535,32.9,1,2012,1.1,3.0500000000000003,0.09838709677419356,0.36065573770491804,N
 Bridgewater,40.626247,-74.653535,32.9,1,2013,1.16,2.62,0.08451612903225807,0.4427480916030534,N
