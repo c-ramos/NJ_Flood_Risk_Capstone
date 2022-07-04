@@ -15,6 +15,9 @@ In this analysis, the group will use property sales data from past storm events 
 *   How much rain (in inches) causes flooding in towns surrounding the Raritan River in NJ? 
 *   Do major storm events, such as Hurricanes Ida and Sany, affect home value before and after?
 
+## Presentation
+Please see the Segment 3 presentation here: [Segment 3](https://github.com/c-ramos/NJ_Flood_Risk_Capstone/blob/main/Group5_Presentation-Segment3_update.pdf).
+
 ## Communications Protocol 
 Team members used Slack to communicate changes with one another. The team member responsible for the Github Repository reviewed pull requests, left comments if necessary, and approved/merged requests. 
 
