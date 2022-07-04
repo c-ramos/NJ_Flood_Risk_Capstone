@@ -1,6 +1,6 @@
 # Precipitation: Impact on Real Estate Values
 
-# Overview of Group 5 Capstone
+## Overview of Group 5 Capstone
 
 ## Roles
 *	Square/Github Repository: Carolina Ramos 
