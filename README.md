@@ -1,11 +1,11 @@
-# NJ Flood Risk Capstone
+# Precipitation: Impact on Real Estate Values
 
-# Overview
+# Overview of Group 5 Capstone
 
 ## Roles
-*	Square/Github Repository: Carolina
-*	Triangle/ML: Archana
-*	Circle/Database: Mae 
+*	Square/Github Repository: Carolina Ramos 
+*	Triangle/ML: Archana Jadhav
+*	Circle/Database: Mae Gaudio
 
 ## Selected Topic
 **The Impact of Flooding on Home Value for Single Family Homes**
