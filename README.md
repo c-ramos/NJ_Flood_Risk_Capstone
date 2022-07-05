@@ -10,6 +10,7 @@
 
 ## Selected Topic
 **The Impact of Precipitation on Home Value for Single Family Homes**
+
 Group 5 selected this topic because we wanted to explore the relationship, if any, between storm events and central NJ residential real estate values.  
 
 ## Questions to Answer with Data
