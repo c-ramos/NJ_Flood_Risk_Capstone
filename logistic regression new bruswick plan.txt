@@ -1,7 +1,0 @@
-
-
-
-
-SUPERVISED LEARNING
-using using ML(Decision Tree,KNN,RandomForest,Logistic Regression
-ML(Decision Tree,KNN,RandomForest,Logistic Regression)
