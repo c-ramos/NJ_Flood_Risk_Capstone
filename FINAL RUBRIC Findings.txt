@@ -19,8 +19,13 @@ The njhome_floodsummary csv was updated
 and we got CURRENTACCURACY SCORE for VARIOUS alogorithms
 by minimising/reframing on X_train.shape
 
+X = X = df [['CITY', 'ELEVATION', 'month', 'year',
+       'city_month_total_rain', 
+       'Anomalypct', 
+       'avghomeprice_month']]-7 columns -projected in Feature importance
+
 1.LOGISTIC REGRESSION-0.5912408759124088
-2.DECISION TREE-0.8102189781021898
+2.DECISION TREE-0.8029197080291971
 3.RANDOM FOREST -0.8321167883211679 (Using the equation (TP + TN) / Total, we can determine our accuracy)- this gave more accuracy model 
 
 
