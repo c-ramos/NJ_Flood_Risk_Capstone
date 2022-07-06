@@ -1,0 +1,30 @@
+FINAL RUBRIC 
+
+THE FINDINGS
+
+The njhome_floodsummary csv was used as dataset and whole Machine Learning Project was done in ML_Pricedrop.ipynb
+the Data was was processed using Pandas dataframe it has (2 cities and 2 counties ) through year 2011-2022 the data of Precipitation and home price
+is in the CSV. 
+Input is independent variable is  Precipitation(anamoly pct)and house Price drop ("Y" or "N") is projected over years.
+
+As the output is "YES" and "NO" kind, so itb falls under  Supervised ,Binary classification category. 
+
+In Rubric 2 -LOGISTIC REGRESSION,DECISION TREE,RANDOM FOREST different regression is used to predict(with available data)
+(please see findings in the  slide)
+
+In final- 
+
+The njhome_floodsummary csv was updated 
+
+and we got CURRENTACCURACY SCORE for VARIOUS alogorithms
+by minimising/reframing on X_train.shape
+
+1.LOGISTIC REGRESSION-0.5912408759124088
+2.DECISION TREE-0.8102189781021898
+3.RANDOM FOREST -0.8321167883211679 (Using the equation (TP + TN) / Total, we can determine our accuracy)- this gave more accuracy model 
+
+
+
+so keeping RANDOM FOREST basic classification algorithms .
+
+Tablaue shows the output with Price drops VS Anomaly pct
