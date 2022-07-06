@@ -1,22 +1,28 @@
-# NJ Flood Risk Capstone
+# Precipitation: Impact on Real Estate Values
 
-# Overview
+## Overview of Group 5 Capstone
+*Analyzing property sales data of homes along the Raritan River and historical precipitation data to evaluate how property values are affected*
 
 ## Roles
-*	Square/Github Repository: Carolina
-*	Triangle/ML: Archana
-*	Circle/Database: Mae 
+*	Square/Github Repository: Carolina Ramos 
+*	Triangle/ML: Archana Jadhav
+*	Circle/Database: Mae Gaudio
 
 ## Selected Topic
-**The Impact of Flooding on Home Value for Single Family Homes**
-In this analysis, the group will use property sales data from past storm events (Hurricane Ida and Hurricane Sandy) along with maps of flood risks to estimate how property values were affected.
+**The Impact of Precipitation on Home Value for Single Family Homes**
 
-## Questions to Answer with the Data
-*   How much rain (in inches) causes flooding in towns surrounding the Raritan River in NJ? 
-*   Do major storm events, such as Hurricanes Ida and Sany, affect home value before and after?
+Group 5 selected this topic because we wanted to explore the relationship, if any, between storm events and central NJ residential real estate values.  
 
-## Communications Protocol 
-Team members used Slack to communicate changes with one another. The team member responsible for the Github Repository reviewed pull requests, left comments if necessary, and approved/merged requests. 
+## Questions to Answer with Data
+*   What are the towns surrounding the Raritan River in NJ? 
+*   What are the recorded rain totals (in inches) for these towns?
+*   Do major storm events, such as Hurricanes Ida and Sandy, affect home value before and after?
+
+## Dashboard
+Please see the dashboard [here](https://public.tableau.com/views/Group5_Dashboard_16569394107950/Group5_Dashboard?:language=en-US&:display_count=n&:origin=viz_share_link).
+
+## Presentation
+Please see the Segment 4 presentation here: [Segment 3](https://github.com/c-ramos/NJ_Flood_Risk_Capstone/blob/main/Group5_Presentation-Segment3_update.pdf). 
 
 ## Database
 
@@ -33,7 +39,12 @@ Team members used Slack to communicate changes with one another. The team member
 								learning model to predict if the list price of the average single family home will
 								drop based on average rainfall, zipcode, city, county.
 
-## Machine Learning
+## Analysis and Visualization of Historical Data
+### Rainfall/Anomaly
+### Anomaly Heatmap
+### Average Home Price
+
+## Machine Learning Model
 - STROM/RAIN FLOOD PREDICTION ALONG RARITAN RIVER MODEL ( REFLECTING FLOOD (y /n) and HOUSE PRICE CHANGE)
 - SUPERVISED MACHINE LEARNING
 

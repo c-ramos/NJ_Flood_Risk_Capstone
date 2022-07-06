@@ -1,0 +1,56 @@
+PLAN B-(IF added flood Data)
+
+SUPERVISED LEARNING
+1.Explore and visualize your data
+Create features from a table and explore a scatterplot matrix in ArcGIS Pro.(NEED OPINION)
+
+
+2.Identify PROPERTY PRICE  with  Multi-Output Regression
+ 
+
+A.Multioutput Regression: Predict two or more numeric outputs given an input.
+In multioutput regression, typically the outputs are dependent upon the input and upon each other. 
+This means that often the outputs are not independent of each other and may require a model that predicts 
+both outputs together or each output contingent upon the other outputs.
+
+***HERE INPUT IS RAINFALL IN INCHES AND OUTPUT FLOOD (WHICH IS CONTINGENT)UPON THE OTHER OUTPUT AVERAGE HOUSE PRICE**
+
+Multi-step time series forecasting may be considered a type of multiple-output regression where a sequence of future 
+values are predicted and each predicted value is dependent upon the prior values in the sequence
+
+Explore important factors in the sale price using generalized .
+
+B-Multioutput Regression Test Problem
+
+We will use the make_regression() function to create a test dataset for multiple-output regression. We will generate 1,000 examples with 10 input features, five of which will be redundant and five that will be informative. The problem will require the prediction of two numeric values.
+
+Problem Input: 1 numeric variables.(RAINFALL FOR THAT YEAR)
+Problem Output: 2 numeric variables.(FLOOD,AVERAGE PRICE FOR THAT YEAR)
+
+3.Inherently Multioutput Regression Algorithms
+
+Linear Regression for Multioutput Regression
+-Running the example fits the model and then makes a prediction for one input, confirming that the model predicted two required values.
+
+4.Chained Multioutput Regression
+Another approach to using single-output regression models for multioutput regression is to create a linear sequence of models.
+
+The first model in the sequence uses the input and predicts one output; the second model uses the input and the output from the first model to make a prediction.
+
+For example, if a multioutput regression problem required the prediction of three values y1, y2  given an input X, then this could be partitioned into three dependent single-output regression problems as follows:
+
+Problem 1: Given X, predict y1.
+Problem 2: Given X and yhat1, predict y2.
+
+This can be achieved using the RegressorChain class in the scikit-learn library.
+
+
+
+4.For example, if a multioutput regression problem required the prediction of TWO values y1, y2  an input X, then this could be partitioned into TWO single-output regression problems:
+Chained Multioutput Regression
+Problem 1: Given X, predict y1.
+Problem 2: Given X and yhat1, predict y2.
+for the PROJECT
+Problem 1: Given X
+(RAINFALL)and predict y1(FLOOD),predict house Price
+Problem 2: Given (RAINFALL) and (flood),predict y2
