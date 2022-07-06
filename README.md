@@ -46,10 +46,7 @@ Columns include:
 6.	Price Drop (outcome) 
 
 
-steps use-(SUPERVISED  MACHINE LEARNING ) 
-1.	classification
-2.	logistic regression
-3. 	ensembling
+
 
 the main concept will be: from inches of rain and strom data the zipcode areas flood or not 
 data['Price Drop'].replace(['YES','NO'],[1,0],inplace=True)
