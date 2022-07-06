@@ -70,30 +70,48 @@ y_predict = will be
 printing('Predicted drop in price') in those zip codes
 printing('Actual drop of price')in those zip codes
 the column of singlehome will show the price change
-FINAL RUBRIC
-7:09
+
+
+--FINAL RUBRIC FINDINGS-
+
 The njhome_floodsummary csv was updated
-and we got CURRENTACCURACY SCORE for VARIOUS alogorithms
+
+and we got CURRENT ACCURACY SCORE for VARIOUS alogorithms-
+
 by minimising/reframing on X_train.shape
 X = X = df [['CITY', 'ELEVATION', 'month', 'year',
        'city_month_total_rain',
        'Anomalypct',
        'avghomeprice_month']]-7 columns -projected in Feature importance
+       
 1.LOGISTIC REGRESSION-0.5912408759124088
+
 2.DECISION TREE-0.8029197080291971
+
 3.RANDOM FOREST -0.8321167883211679 (Using the equation (TP + TN) / Total, we can determine our accuracy)- this gave more accuracy m
 The final algorithm for the project is RANDOM FOREST with highest accuracy.
 
-RANDOM FOREST OVER DECISION TREE
+-------RANDOM FOREST OVER DECISION TREE--------
 
 DECISION TREE-
+
 -A decision tree is a tree-like model of decisions along with possible outcomes.
+
 -There is always a scope for overfitting, caused due to the presence of variance.
 -The results are not accurate.
+
+
 RANDOM FOREST-
+
 -A classification algorithm consisting of many decision trees combined to get a more accurate result as compared to a single tree.
+
 -Random forest algorithm avoids and prevents overfitting by using multiple trees.
+
 -This gives accurate and precise results.
+
 SO RANDOM FOREST BEST FOR THIS MODEL TO PREDICT PRICEDROP
-VISUALIZATION -TABLEAU-https://public.tableau.com/views/FinalDashboard_16571266071880/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link
+
+VISUALIZATION -TABLEAU- 
+
+https://public.tableau.com/views/FinalDashboard_16571266071880/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link
 
