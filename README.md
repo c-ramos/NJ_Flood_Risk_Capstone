@@ -40,9 +40,13 @@ Please see the Segment 4 presentation here: [Segment 3](https://github.com/c-ram
 								drop based on average rainfall, zipcode, city, county.
 
 ## Analysis and Visualization of Historical Data
-### Rainfall/Anomaly
-### Anomaly Heatmap
-### Average Home Price
+
+![Precip_NBBridgewater_CR](https://user-images.githubusercontent.com/96538067/177642294-6f4679c9-13aa-489c-bd36-dc54972c4284.png)
+
+![PrecipAnomaly_NBBridgewater_CR](https://user-images.githubusercontent.com/96538067/177642234-af7ac023-8a02-4d5a-8f68-177a52e63651.png)
+
+*Analysis focuses on major storm events like Hurricanes Sandy and Ida*
+![Images/AvgSalesPrice_CR.png](https://github.com/c-ramos/NJ_Flood_Risk_Capstone/blob/245209e625ed1848d49aa468af83c704699c1d71/Images/AvgSalesPrice_CR.png)
 
 ## Machine Learning Model
 - STROM/RAIN FLOOD PREDICTION ALONG RARITAN RIVER MODEL ( REFLECTING FLOOD (y /n) and HOUSE PRICE CHANGE)
