@@ -49,43 +49,33 @@ Please see the Segment 4 presentation here: [Segment 3](https://github.com/c-ram
 ![Images/AvgSalesPrice_CR.png](https://github.com/c-ramos/NJ_Flood_Risk_Capstone/blob/245209e625ed1848d49aa468af83c704699c1d71/Images/AvgSalesPrice_CR.png)
 
 ## Machine Learning Model
-- STROM/RAIN FLOOD PREDICTION ALONG RARITAN RIVER MODEL ( REFLECTING FLOOD (y /n) and HOUSE PRICE CHANGE)
-- SUPERVISED MACHINE LEARNING
+**CHOICE OF MODEL***
 
-Columns include:
-1.	zipcodes
-2.	YEAR-storm event
-3.	Annual rainfall/storm(input)
-4.	floodzone-(this is output -flood y/n)
-5.	Avg single home Price.this column will show changes
-6.	Price Drop (outcome) 
+SUPERVISED LEARNING-
+Supervised learning deals with labeled data.
+The reason to choose this is we have labeled data (njhome_floodsummary.csv)
+We are Predicting 2011-2022 Precipitation(Anomaly_pct) vs House _Price drop
+The Prediction is “Y” and “N”.
+So its Binary Classification.
 
+Decision  for binary classification Algorithms)
+REGRESSION-regression is used to predict continuous variables
+LOGISTIC REGRESSION-Logistic regression predicts binary outcomes, meaning that there are only two possible outcomes.
+CLASSIFICATION-Classification, on the other hand, is used to predict discrete outcomes
+The outcome, in this case, is whether the person will vote "Yes" or "No." The classification model's algorithms would attempt to learn patterns from the data, and if the model is successful, gain the ability to make accurate predictions for new voters.
 
-
-
-the main concept will be: from inches of rain and strom data the zipcode areas flood or not 
-data['Price Drop'].replace(['YES','NO'],[1,0],inplace=True)
-
-y_predict = will be 
-printing('Predicted drop in price') in those zip codes
-printing('Actual drop of price')in those zip codes
-the column of singlehome will show the price change
+1.DECISSION TREE
+2.RANDOM FOREST(ENSEMBLE)
 
 
---FINAL RUBRIC FINDINGS-
+----------FINAL RUBRIC FINDINGS---------
 
 The njhome_floodsummary csv was updated
 
 and we got CURRENT ACCURACY SCORE for VARIOUS alogorithms-
 
-
 by minimising/reframing on X_train.shape X = X = df [['CITY', 'ELEVATION', 'month', 'year', 'city_month_total_rain', 'Anomalypct', 'avghomeprice_month']]-7 columns -projected in Feature importance
 
-=======
-
-by minimising/reframing on X_train.shape X = X = df [['CITY', 'ELEVATION', 'month', 'year', 'city_month_total_rain', 'Anomalypct', 'avghomeprice_month']]-7 columns -projected in Feature importance
-
-=======
 by minimising/reframing on X_train.shape
 X = X = df [['CITY', 'ELEVATION', 'month', 'year',
        'city_month_total_rain',
@@ -100,13 +90,6 @@ X = X = df [['CITY', 'ELEVATION', 'month', 'year',
 
 
 3.RANDOM FOREST -0.8321167883211679 (Using the equation (TP + TN) / Total, we can determine our accuracy)- this gave more accuracy m The final algorithm for the project is RANDOM FOREST with highest accuracy.
-=======
-
-3.RANDOM FOREST -0.8321167883211679 (Using the equation (TP + TN) / Total, we can determine our accuracy)- this gave more accuracy m The final algorithm for the project is RANDOM FOREST with highest accuracy.
-=======
-3.RANDOM FOREST -0.8321167883211679 (Using the equation (TP + TN) / Total, we can determine our accuracy)- this gave more accuracy m
-The final algorithm for the project is RANDOM FOREST with highest accuracy.
-
 
 -------RANDOM FOREST OVER DECISION TREE--------
 
@@ -114,16 +97,8 @@ DECISION TREE-
 
 -A decision tree is a tree-like model of decisions along with possible outcomes.
 
-
--There is always a scope for overfitting, caused due to the presence of variance. -The results are not accurate.
-=======
-
--There is always a scope for overfitting, caused due to the presence of variance. -The results are not accurate.
-=======
 -There is always a scope for overfitting, caused due to the presence of variance.
 -The results are not accurate.
-
-
 
 RANDOM FOREST-
 
@@ -139,15 +114,3 @@ SO RANDOM FOREST BEST FOR THIS MODEL TO PREDICT PRICEDROP
 VISUALIZATION -TABLEAU-
 
 https://public.tableau.com/views/FinalDashboard_16571266071880/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link 
-=======
-
-VISUALIZATION -TABLEAU-
-
-https://public.tableau.com/views/FinalDashboard_16571266071880/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link 
-=======
-VISUALIZATION -TABLEAU- 
-
-https://public.tableau.com/views/FinalDashboard_16571266071880/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link
-
-
-
