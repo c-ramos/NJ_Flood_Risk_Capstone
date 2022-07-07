@@ -82,12 +82,17 @@ and we got CURRENT ACCURACY SCORE for VARIOUS alogorithms-
 by minimising/reframing on X_train.shape X = X = df [['CITY', 'ELEVATION', 'month', 'year', 'city_month_total_rain', 'Anomalypct', 'avghomeprice_month']]-7 columns -projected in Feature importance
 
 =======
+
+by minimising/reframing on X_train.shape X = X = df [['CITY', 'ELEVATION', 'month', 'year', 'city_month_total_rain', 'Anomalypct', 'avghomeprice_month']]-7 columns -projected in Feature importance
+
+=======
 by minimising/reframing on X_train.shape
 X = X = df [['CITY', 'ELEVATION', 'month', 'year',
        'city_month_total_rain',
        'Anomalypct',
        'avghomeprice_month']]-7 columns -projected in Feature importance
        
+
 
 1.LOGISTIC REGRESSION-0.5912408759124088
 
@@ -96,8 +101,12 @@ X = X = df [['CITY', 'ELEVATION', 'month', 'year',
 
 3.RANDOM FOREST -0.8321167883211679 (Using the equation (TP + TN) / Total, we can determine our accuracy)- this gave more accuracy m The final algorithm for the project is RANDOM FOREST with highest accuracy.
 =======
+
+3.RANDOM FOREST -0.8321167883211679 (Using the equation (TP + TN) / Total, we can determine our accuracy)- this gave more accuracy m The final algorithm for the project is RANDOM FOREST with highest accuracy.
+=======
 3.RANDOM FOREST -0.8321167883211679 (Using the equation (TP + TN) / Total, we can determine our accuracy)- this gave more accuracy m
 The final algorithm for the project is RANDOM FOREST with highest accuracy.
+
 
 -------RANDOM FOREST OVER DECISION TREE--------
 
@@ -108,8 +117,12 @@ DECISION TREE-
 
 -There is always a scope for overfitting, caused due to the presence of variance. -The results are not accurate.
 =======
+
+-There is always a scope for overfitting, caused due to the presence of variance. -The results are not accurate.
+=======
 -There is always a scope for overfitting, caused due to the presence of variance.
 -The results are not accurate.
+
 
 
 RANDOM FOREST-
@@ -127,8 +140,14 @@ VISUALIZATION -TABLEAU-
 
 https://public.tableau.com/views/FinalDashboard_16571266071880/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link 
 =======
+
+VISUALIZATION -TABLEAU-
+
+https://public.tableau.com/views/FinalDashboard_16571266071880/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link 
+=======
 VISUALIZATION -TABLEAU- 
 
 https://public.tableau.com/views/FinalDashboard_16571266071880/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link
+
 
 
