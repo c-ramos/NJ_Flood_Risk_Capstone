@@ -1,6 +1,0 @@
-﻿zipcode,city,county,stormevent_name,stormevent_month,stormevent_year,rainfall_inches,flood_level,flood_zone,avg_home_value_6mo_before,avg_home_value_6mo_after,avg_home_value_1yr_before,avg_home_value_1yr_after,price_dropped
-8901,new brunswick,Middlesex,IDA,9,2021,10,,A,"449,000","424,000","444,000","430,000",Y
-8904,highland park,Middlesex,IDA,9,2021,15,,AE,"399,999","374,999","394,999","380,999",Y
-8876,somerville,Somerset,IDA,9,2021,9,,AE,"499,000","474,000","494,000","480,000",Y
-8805,bound brook,Somerset,IDA,9,2021,9,,X,"425,000","400,000","420,000","406,000",Y
-8873,somserset,Somerset,IDA,9,2021,9,,A,"525,000","500,000","520,000","506,000",Y
