@@ -40,9 +40,13 @@ Please see the Segment 4 presentation here: [Segment 3](https://github.com/c-ram
 								drop based on average rainfall, zipcode, city, county.
 
 ## Analysis and Visualization of Historical Data
-### Rainfall/Anomaly
-### Anomaly Heatmap
-### Average Home Price
+
+![Precip_NBBridgewater_CR](https://user-images.githubusercontent.com/96538067/177642294-6f4679c9-13aa-489c-bd36-dc54972c4284.png)
+
+![PrecipAnomaly_NBBridgewater_CR](https://user-images.githubusercontent.com/96538067/177642234-af7ac023-8a02-4d5a-8f68-177a52e63651.png)
+
+*Analysis focuses on major storm events like Hurricanes Sandy and Ida*
+![Images/AvgSalesPrice_CR.png](https://github.com/c-ramos/NJ_Flood_Risk_Capstone/blob/245209e625ed1848d49aa468af83c704699c1d71/Images/AvgSalesPrice_CR.png)
 
 ## Machine Learning Model
 - STROM/RAIN FLOOD PREDICTION ALONG RARITAN RIVER MODEL ( REFLECTING FLOOD (y /n) and HOUSE PRICE CHANGE)
@@ -57,10 +61,7 @@ Columns include:
 6.	Price Drop (outcome) 
 
 
-steps use-(SUPERVISED  MACHINE LEARNING ) 
-1.	classification
-2.	logistic regression
-3. 	ensembling
+
 
 the main concept will be: from inches of rain and strom data the zipcode areas flood or not 
 data['Price Drop'].replace(['YES','NO'],[1,0],inplace=True)
@@ -70,19 +71,42 @@ printing('Predicted drop in price') in those zip codes
 printing('Actual drop of price')in those zip codes
 the column of singlehome will show the price change
 
+
 --FINAL RUBRIC FINDINGS-
 
 The njhome_floodsummary csv was updated
 
 and we got CURRENT ACCURACY SCORE for VARIOUS alogorithms-
 
+
 by minimising/reframing on X_train.shape X = X = df [['CITY', 'ELEVATION', 'month', 'year', 'city_month_total_rain', 'Anomalypct', 'avghomeprice_month']]-7 columns -projected in Feature importance
+
+=======
+
+by minimising/reframing on X_train.shape X = X = df [['CITY', 'ELEVATION', 'month', 'year', 'city_month_total_rain', 'Anomalypct', 'avghomeprice_month']]-7 columns -projected in Feature importance
+
+=======
+by minimising/reframing on X_train.shape
+X = X = df [['CITY', 'ELEVATION', 'month', 'year',
+       'city_month_total_rain',
+       'Anomalypct',
+       'avghomeprice_month']]-7 columns -projected in Feature importance
+       
+
 
 1.LOGISTIC REGRESSION-0.5912408759124088
 
 2.DECISION TREE-0.8029197080291971
 
+
 3.RANDOM FOREST -0.8321167883211679 (Using the equation (TP + TN) / Total, we can determine our accuracy)- this gave more accuracy m The final algorithm for the project is RANDOM FOREST with highest accuracy.
+=======
+
+3.RANDOM FOREST -0.8321167883211679 (Using the equation (TP + TN) / Total, we can determine our accuracy)- this gave more accuracy m The final algorithm for the project is RANDOM FOREST with highest accuracy.
+=======
+3.RANDOM FOREST -0.8321167883211679 (Using the equation (TP + TN) / Total, we can determine our accuracy)- this gave more accuracy m
+The final algorithm for the project is RANDOM FOREST with highest accuracy.
+
 
 -------RANDOM FOREST OVER DECISION TREE--------
 
@@ -90,7 +114,16 @@ DECISION TREE-
 
 -A decision tree is a tree-like model of decisions along with possible outcomes.
 
+
 -There is always a scope for overfitting, caused due to the presence of variance. -The results are not accurate.
+=======
+
+-There is always a scope for overfitting, caused due to the presence of variance. -The results are not accurate.
+=======
+-There is always a scope for overfitting, caused due to the presence of variance.
+-The results are not accurate.
+
+
 
 RANDOM FOREST-
 
@@ -102,8 +135,19 @@ RANDOM FOREST-
 
 SO RANDOM FOREST BEST FOR THIS MODEL TO PREDICT PRICEDROP
 
+
 VISUALIZATION -TABLEAU-
 
 https://public.tableau.com/views/FinalDashboard_16571266071880/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link 
+=======
+
+VISUALIZATION -TABLEAU-
+
+https://public.tableau.com/views/FinalDashboard_16571266071880/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link 
+=======
+VISUALIZATION -TABLEAU- 
+
+https://public.tableau.com/views/FinalDashboard_16571266071880/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link
+
 
 
